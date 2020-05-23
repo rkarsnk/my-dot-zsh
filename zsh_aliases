@@ -1,3 +1,29 @@
-alias ls='ls -G'
-alias ll='ls -l'
-alias la='ls -al'
+# ls alias
+
+case ${OSTYPE} in
+	darwin*)
+		alias ls='ls -G'
+		;;
+	linux*)
+		alias ls='ls --color=auto'
+		;;
+esac
+
+alias ll='ls -alFh'
+alias la='ls -ACF'
+# cp,mv,rm alias
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
+# cd alias
+alias ..='cd ..'
+
+# vi alias
+alias vi='vim'
+
+# git alias
+alias gs='git status'
+
+# clear alias
+alias c='clear'
