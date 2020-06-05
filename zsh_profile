@@ -1,3 +1,4 @@
 . ~/.zsh/zsh_log
 . ~/.zsh/zsh_prompt
 . ~/.zsh/zsh_aliases
+. ~/.zsh/pyenv
