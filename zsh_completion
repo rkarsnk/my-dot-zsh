@@ -1,0 +1,6 @@
+autoload -U compinit
+compinit -u
+
+function _ssh {
+	compadd `fgrep 'Host ' ~/.ssh/config | awk '{print $2}' |sort`;
+}
