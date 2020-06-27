@@ -27,3 +27,6 @@ alias gs='git status'
 
 # clear alias
 alias c='clear'
+
+# today alias
+alias today='date "+%Y-%m-%d"'
