@@ -1,4 +1,4 @@
-PYENVDIR='$HOME/.pyenv/bin'
+PYENVDIR=$HOME/.pyenv/bin
 
 if [ -d $PYENVDIR ];then
 	export PATH=$HOME/.pyenv/bin:$PATH
