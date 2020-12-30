@@ -6,3 +6,9 @@ if [ -d $PYENVDIR ];then
 	eval "$(pyenv virtualenv-init -)"
 fi
 
+RBENVDIR=$HOME/.rbenv/bin
+
+if [ -d $RBENVDIR ];then
+	export PATH=$RBENVDIR:$PATH
+	eval "$(rbenv init -)"
+fi 
