@@ -2,3 +2,4 @@
 . ~/.zsh/zsh_prompt
 . ~/.zsh/zsh_aliases
 . ~/.zsh/zsh_path
+. ~/.zsh/zsh_xcode
