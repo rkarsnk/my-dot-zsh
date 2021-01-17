@@ -2,6 +2,6 @@ export LSCOLORS=ExCxcxdxBxegedabagacad
 
 if [[ ${TERM_PROGRAM} != "vscode" ]]; then
 	sharp='\uE0B0'
-	PROMPT=`echo %K{blue}%F{white}%B%n@%m%b%f%k%F{blue}%K{white}${sharp} %k%f%K{white}%F{blue}%B%~%f%b %#%k%F{white}${sharp} %f`
+	PROMPT=`echo %K{white}%F{red}%B%n@%m%b%f%k%F{white}%K{blue}${sharp} %k%f%K{blue}%F{white}%B%~%b %#%f%k%F{blue}${sharp} %f`
 fi
 
