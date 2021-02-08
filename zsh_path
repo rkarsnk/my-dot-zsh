@@ -19,3 +19,7 @@ if [ -d $VSCODEDIR ];then
 	export PATH=$PATH:$VSCODEDIR
 fi
 
+LINUXBREWDIR=$HOME/.linuxbrew/bin
+if [ -d $LINUXBREWDIR ];then
+	export PATH=$LINUXBREWDIR:$PATH
+fi
