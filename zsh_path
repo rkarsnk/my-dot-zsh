@@ -12,3 +12,10 @@ if [ -d $RBENVDIR ];then
 	export PATH=$RBENVDIR:$PATH
 	eval "$(rbenv init -)"
 fi 
+
+VSCODEDIR=/mnt/c/Program\ Files/Microsoft\ VS\ Code/bin
+
+if [ -d $VSCODEDIR ];then
+	export PATH=$PATH:$VSCODEDIR
+fi
+
