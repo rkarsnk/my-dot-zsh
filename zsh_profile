@@ -1,6 +1,6 @@
-. ~/.zsh/zsh_log
-. ~/.zsh/zsh_prompt
-. ~/.zsh/zsh_aliases
-. ~/.zsh/zsh_path
-. ~/.zsh/zsh_completion
-. ~/.zsh/zsh_xcode
+. ~/.zsh/zsh_log.sh
+. ~/.zsh/zsh_prompt.sh
+. ~/.zsh/zsh_aliases.sh
+. ~/.zsh/zsh_path.sh
+. ~/.zsh/zsh_completion.sh
+. ~/.zsh/zsh_xcode.sh
