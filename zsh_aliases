@@ -1,5 +1,4 @@
 # ls alias
-
 case ${OSTYPE} in
 	darwin*)
 		alias ls='ls -G'
@@ -9,24 +8,16 @@ case ${OSTYPE} in
 		;;
 esac
 
-alias ll='ls -alFh'
-alias la='ls -ACF'
 # cp,mv,rm alias
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
-
-# cd alias
-alias ..='cd ..'
 
 # vi alias
 alias vi='vim'
 
 # git alias
 alias gs='git status'
-
-# clear alias
-alias c='clear'
 
 # today alias
 alias today='date "+%Y-%m-%d"'
